@@ -10,7 +10,7 @@ exports.books.all = function(req, res) {
     };
     res.json(response);
   });
-}
+};
 
 exports.books.one = function(req, res) {
   var bookId = db.ObjectId(req.params.id);
